@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote</title>
+</head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+
+body {
+    background-color:#272e33;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.center {
+  text-align: center;
+  font-weight: 900;
+  color: #c6c6c6;
+}
+
+a {
+    color: whitesmoke;
+}
+
+.wrap {
+    position: absolute;
+    bottom: 0;
+}
+
+</style>
+<body>
+    
+
+    <div>
+        <img src="https://source.unsplash.com/random/{{size}}">
+    </div>
+
+    <p class="center">
+        {{quote}}
+    </p>
+
+    <!-- <br>
+    <br>
+    <br>
+    <br> -->
+        <footer class="wrap">
+            <i class="fa fa-github" style="font-size:32px;color:whitesmoke"></i>
+            <a class='center' href="https://github.com/MikeRedfox/funny_quote">Repository</a>
+                
+        </footer>
+ 
+
+</body>
+</html>
